@@ -1,3 +1,2 @@
-#leetcode
-learning algorithm  
-testing
+# leetcode
+learning algorithm
