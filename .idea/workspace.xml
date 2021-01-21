@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c6565e-a4e3-4f5c-94b2-012f7f94ce06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/19_删除链表的倒数第N个结点.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/1_两数之和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/25_K个一组翻转链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/2_两数相加.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/387_字符串中的第一个唯一字符.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/datastructure.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/hello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/md2html.py" beforeDir="false" afterPath="$PROJECT_DIR$/md2html.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

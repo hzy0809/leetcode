@@ -13,6 +13,6 @@ learning algorithm
 + [2_两数相加](./leetcode/2_两数相加.py)
 + [19_删除链表的倒数第N个结点](./leetcode/19_删除链表的倒数第N个结点.py)
 + [25_K个一组翻转链表](./leetcode/25_K个一组翻转链表.py)
-+ 61
++ [61_旋转列表](./leetcode/61_旋转列表.py)
 + 138
 + 206
