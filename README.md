@@ -15,4 +15,4 @@ learning algorithm
 + [25_K个一组翻转链表](./leetcode/25_K个一组翻转链表.py)
 + [61_旋转列表](./leetcode/61_旋转列表.py)
 + [138_复制带随机指针的链表](./leetcode/138_复制带随机指针的链表.py)
-+ 206
++ [206_反转链表](./leetcode/206_反转链表.py)
