@@ -11,7 +11,15 @@ class ListNode(object):
         self.next = next
 
 
+class Node(object):
+
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+
+
 if __name__ == '__main__':
     a = ListNode(0)
-    b = ListNode(a,1)
+    b = ListNode(a, 1)
     print(b.val)
