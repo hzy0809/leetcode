@@ -9,10 +9,21 @@ learning algorithm
 
 ## 链表
 > 可以使用列表实现，需要维护列表长度  
-> 结构：[data_structure](./leetcode/datastructure.py)
+> 结构：[data_structure.ListNode](./leetcode/datastructure.py)
 + [2_两数相加](./leetcode/2_两数相加.py)
 + [19_删除链表的倒数第N个结点](./leetcode/19_删除链表的倒数第N个结点.py)
 + [25_K个一组翻转链表](./leetcode/25_K个一组翻转链表.py)
 + [61_旋转列表](./leetcode/61_旋转列表.py)
 + [138_复制带随机指针的链表](./leetcode/138_复制带随机指针的链表.py)
 + [206_反转链表](./leetcode/206_反转链表.py)
+
+## 双指针遍历/滑动窗口
+
++ [3_无重复字符的最长字符串](./leetcode/3_无重复字符的最长字符串.py)
++ [11_盛最多水的容器](./leetcode/11_盛最多水的容器.py)
++ [15_三数之和](./leetcode/15_三数之和.py)
++ [16_最接近的三数之和](./leetcode/16_最接近的三数之和.py)
++ 26
++ 42
++ 121
++ 209
