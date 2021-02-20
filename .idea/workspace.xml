@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c6565e-a4e3-4f5c-94b2-012f7f94ce06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/11_盛最多水的容器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/15_三数之和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/3_无重复字符的最长字符串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/26_删除排序数组中的重复项.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +137,8 @@
       <workItem from="1612923016442" duration="520000" />
       <workItem from="1613035269423" duration="4373000" />
       <workItem from="1613621761371" duration="2273000" />
-      <workItem from="1613701434705" duration="602000" />
+      <workItem from="1613701434705" duration="2658000" />
+      <workItem from="1613785975233" duration="1762000" />
     </task>
     <servers />
   </component>
