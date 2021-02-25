@@ -64,6 +64,9 @@ class Solution:
         return result
 
     def better(self, s: int, nums: list([int])) -> int:
+        """
+        双指针
+        """
         if not nums:
             return 0
 
