@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c6565e-a4e3-4f5c-94b2-012f7f94ce06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/209_长度最小的子数组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/141_环形链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/876_链表的中间结点.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/datastructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/datastructure.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +167,10 @@
       <workItem from="1613785975233" duration="1946000" />
       <workItem from="1613967649304" duration="1590000" />
       <workItem from="1614044652260" duration="1662000" />
-      <workItem from="1614226934413" duration="1488000" />
+      <workItem from="1614226934413" duration="1734000" />
+      <workItem from="1614313057506" duration="1248000" />
+      <workItem from="1614571830485" duration="2123000" />
+      <workItem from="1614736966664" duration="606000" />
     </task>
     <servers />
   </component>
