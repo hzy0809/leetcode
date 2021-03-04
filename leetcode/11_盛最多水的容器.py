@@ -41,6 +41,7 @@ n = height.length
 
 链接：https://leetcode-cn.com/problems/container-with-most-water
 """
+from typing import List
 
 
 class Solution:
@@ -76,7 +77,7 @@ class Solution:
                 maxsize = size
         return maxsize
 
-    def better_momery(self, height: list[int]) -> int:
+    def better_momery(self, height: List[int]) -> int:
         a = 0
         b = len(height) - 1
         result = min(height[a], height[b]) * (b - a)

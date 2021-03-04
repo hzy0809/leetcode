@@ -36,10 +36,11 @@
 # from bisect import bisect
 from collections import defaultdict
 import bisect
+from typing import List
 
 
 class Solution:
-    def threeSum(self, nums: list([int])) -> list(list([int])):
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
         """
         :param nums:
         :return:
@@ -70,7 +71,7 @@ class Solution:
 
         return result
 
-    def fatest(self, nums: list([int])) -> list(list([int])):
+    def fatest(self, nums: List[int]) -> List[List[int]]:
         res = []
         if len(nums) < 3:
             return []

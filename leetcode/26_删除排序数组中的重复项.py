@@ -47,9 +47,11 @@ for (int i = 0; i < len; i++) {
 
 链接：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array
 """
+from typing import List
+
 
 class Solution:
-    def removeDuplicates(self, nums: list[int]) -> int:
+    def removeDuplicates(self, nums: List[int]) -> int:
         if not nums:
             return 0
         slow = 0

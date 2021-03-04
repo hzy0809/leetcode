@@ -40,10 +40,11 @@
 
 链接：https://leetcode-cn.com/problems/minimum-size-subarray-sum
 """
+from typing import List
 
 
 class Solution:
-    def minSubArrayLen(self, target: int, nums: list([int])) -> int:
+    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         total = 0
         slow = 0
         fast = 0
@@ -63,7 +64,7 @@ class Solution:
             result = 0
         return result
 
-    def better(self, s: int, nums: list([int])) -> int:
+    def better(self, s: int, nums: List[int]) -> int:
         """
         双指针
         """

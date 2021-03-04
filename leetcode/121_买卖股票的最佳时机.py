@@ -34,10 +34,11 @@
 
 链接：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock
 """
+from typing import List
 
 
 class Solution:
-    def maxProfit(self, prices: list([int])) -> int:
+    def maxProfit(self, prices: List[int]) -> int:
         result = 0
         if prices:
             lower = prices[0]

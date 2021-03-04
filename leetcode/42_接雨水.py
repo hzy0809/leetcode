@@ -27,10 +27,11 @@ n == height.length
 0 <= n <= 3 * 104
 0 <= height[i] <= 105
 """
+from typing import List
 
 
 class Solution:
-    def trap(self, height: list[int]) -> int:
+    def trap(self, height: List[int]) -> int:
         left = 0
         right = len(height) - 1
         result = 0
