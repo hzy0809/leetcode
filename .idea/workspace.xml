@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c6565e-a4e3-4f5c-94b2-012f7f94ce06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/56_合并区间.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/6_Z字形变换.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/11_盛最多水的容器.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/11_盛最多水的容器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/15_三数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/15_三数之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/1_两数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1_两数之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/42_接雨水.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/42_接雨水.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +192,9 @@
       <workItem from="1614313057506" duration="1248000" />
       <workItem from="1614571830485" duration="2123000" />
       <workItem from="1614736966664" duration="2508000" />
-      <workItem from="1614832052835" duration="1345000" />
+      <workItem from="1614832052835" duration="2270000" />
+      <workItem from="1614909951062" duration="2876000" />
+      <workItem from="1615181786363" duration="869000" />
     </task>
     <servers />
   </component>
