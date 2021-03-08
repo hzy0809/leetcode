@@ -41,7 +41,7 @@ learning algorithm
 ### 字符串操作
 
 - [6_Z字形变换](./leetcode/6_Z字形变换.py)
-- 14
+- [14_最长公共前缀](./leetcode/14_最长公共前缀.py)
 - 763
 
 ### 数字操作
