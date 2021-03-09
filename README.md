@@ -42,7 +42,7 @@ learning algorithm
 
 - [6_Z字形变换](./leetcode/6_Z字形变换.py)
 - [14_最长公共前缀](./leetcode/14_最长公共前缀.py)
-- 763
+- [763_划分字母区间](./leetcode/763_划分字母区间.py)
 
 ### 数字操作
 

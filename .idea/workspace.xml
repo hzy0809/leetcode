@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c6565e-a4e3-4f5c-94b2-012f7f94ce06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/14_最长公共前缀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/763_划分字母区间.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +195,8 @@
       <workItem from="1614832052835" duration="2270000" />
       <workItem from="1614909951062" duration="2876000" />
       <workItem from="1615181786363" duration="1201000" />
-      <workItem from="1615191939656" duration="676000" />
+      <workItem from="1615191939656" duration="1244000" />
+      <workItem from="1615263220102" duration="1021000" />
     </task>
     <servers />
   </component>
