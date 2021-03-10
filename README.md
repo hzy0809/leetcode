@@ -47,7 +47,7 @@ learning algorithm
 ### 数字操作
 
 - [7_整数反转](./leetcode/7_整数反转.py)
-- 8
+- [8_字符串转换整数(atoi)](./leetcode/8_字符串转换整数(atoi).py)
 - 9
 - 43
 - 172
