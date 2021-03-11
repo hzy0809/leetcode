@@ -49,7 +49,7 @@ learning algorithm
 - [7_整数反转](./leetcode/7_整数反转.py)
 - [8_字符串转换整数(atoi)](./leetcode/8_字符串转换整数(atoi).py)
 - [9_回文数](./leetcode/9_回文数.py)
-- 43
+- [43_字符串相乘](./leetcode/43_字符串相乘.py)
 - 172
 - 258
 
