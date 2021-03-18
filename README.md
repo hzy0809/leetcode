@@ -4,7 +4,7 @@ learning algorithm
 ## hash相关
 > hash表，建立唯一映射   
 > 字典的键为可哈希对象
-+ [q1_两数之和](./leetcode/q1_两数之和.py)
++ [1_两数之和](./leetcode/1_两数之和.py)
 + [387_字符串中的第一个唯一字符](./leetcode/387_字符串中的第一个唯一字符.py)
 
 ## 链表
@@ -55,7 +55,7 @@ learning algorithm
 
 ### 数组操作
 
-- 54
+- [54_螺旋矩阵](./leetcode/54_螺旋矩阵.py)
 - 73
 - 78
 - 384
