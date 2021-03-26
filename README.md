@@ -56,8 +56,8 @@ learning algorithm
 ### 数组操作
 
 - [54_螺旋矩阵](./leetcode/54_螺旋矩阵.py)
-- 73
-- 78
+- [73_矩阵置零](./leetcode/73_矩阵置零.py)
+- [78_子集](./leetcode/78_子集.py)
 - 384
 - 581
 - 945
