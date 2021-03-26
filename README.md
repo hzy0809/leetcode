@@ -58,7 +58,7 @@ learning algorithm
 - [54_螺旋矩阵](./leetcode/54_螺旋矩阵.py)
 - [73_矩阵置零](./leetcode/73_矩阵置零.py)
 - [78_子集](./leetcode/78_子集.py)
-- 384
+- [384_打乱数组](./leetcode/384_打乱数组.py)
 - 581
 - 945
 ### 栈相关

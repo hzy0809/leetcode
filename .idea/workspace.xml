@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c6565e-a4e3-4f5c-94b2-012f7f94ce06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/73_矩阵置零.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/78_子集.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/384_打乱数组.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -212,7 +211,8 @@
       <workItem from="1616082191754" duration="597000" />
       <workItem from="1616646393879" duration="1199000" />
       <workItem from="1616666450131" duration="1526000" />
-      <workItem from="1616724150734" duration="2181000" />
+      <workItem from="1616724150734" duration="2796000" />
+      <workItem from="1616751903429" duration="441000" />
     </task>
     <servers />
   </component>
