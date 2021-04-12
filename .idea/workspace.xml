@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c6565e-a4e3-4f5c-94b2-012f7f94ce06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/581_最短无序连续子数组.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +218,9 @@
       <workItem from="1617329188782" duration="1269000" />
       <workItem from="1617675333504" duration="587000" />
       <workItem from="1617762453584" duration="1084000" />
-      <workItem from="1617850384110" duration="633000" />
+      <workItem from="1617850384110" duration="783000" />
+      <workItem from="1617934804803" duration="1156000" />
+      <workItem from="1618201172157" duration="115000" />
     </task>
     <servers />
   </component>
