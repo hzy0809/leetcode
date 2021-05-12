@@ -65,7 +65,7 @@ learning algorithm
 
 - [20_有效的括号](./leetcode/20_有效的括号.py)
 - [32_最长有效括号](./leetcode/32_最长有效括号.py)
-- 155
+- [155_最小栈](./leetcode/155_最小栈.py)
 - 224
 - 232
 - 316
