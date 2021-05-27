@@ -1,15 +1,20 @@
 # leetcode
+
 learning algorithm
 
 ## hash相关
+
 > hash表，建立唯一映射   
 > 字典的键为可哈希对象
+
 + [1_两数之和](./leetcode/1_两数之和.py)
 + [387_字符串中的第一个唯一字符](./leetcode/387_字符串中的第一个唯一字符.py)
 
 ## 链表
+
 > 可以使用列表实现，需要维护列表长度  
 > 结构：[data_structure.ListNode](./leetcode/datastructure.py)
+
 + [2_两数相加](./leetcode/2_两数相加.py)
 + [19_删除链表的倒数第N个结点](./leetcode/19_删除链表的倒数第N个结点.py)
 + [25_K个一组翻转链表](./leetcode/25_K个一组翻转链表.py)
@@ -61,13 +66,14 @@ learning algorithm
 - [384_打乱数组](./leetcode/384_打乱数组.py)
 - [581_最短无序连续子数组](./leetcode/581_最短无序连续子数组.py)
 - [945_使数组唯一的最小增量](./leetcode/945_使数组唯一的最小增量.py)
+
 ### 栈相关
 
 - [20_有效的括号](./leetcode/20_有效的括号.py)
 - [32_最长有效括号](./leetcode/32_最长有效括号.py)
 - [155_最小栈](./leetcode/155_最小栈.py)
 - [224_基本计算器](./leetcode/224_基本计算器.py)
-- 232
+- [232_用栈实现队列](./leetcode/232_用栈实现队列.py)
 - 316
 
 ### 堆相关
