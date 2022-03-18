@@ -45,4 +45,81 @@ from leetcode.datastructure import TreeNode
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        pass
+        pq = {p.val, q.val}
+        if root.val in pq:
+            return root
+
+        def lowest(node):
+            if not node:
+                return None
+            res = lowest(node.left)
+
+            if not pq:
+                return res
+
+            if node.val in pq:
+                pq.remove(node.val)
+                res = node
+
+            if not pq:
+                return res
+
+            right = lowest(node.right)
+
+            if res and right:
+                res = node
+            return res or right
+
+        return lowest(root)
+
+
+class FastSolution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if not root or root == p or root == q:
+            return root
+        left = self.lowestCommonAncestor(root.left, p, q)
+        right = self.lowestCommonAncestor(root.right, p, q)
+        if left and right:
+            return root
+        return left or right
+
+
+class MinSolution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if not root:
+            return root
+        ddict = dict()
+        nodes = {p, q}
+        import collections
+        queue = collections.deque()
+        queue.append(root)
+        while queue:
+            node = queue.popleft()
+            if node in nodes:
+                nodes.remove(node)
+            if not nodes:
+                break
+            if node.left:
+                ddict[node.left] = node
+                queue.append(node.left)
+            if node.right:
+                ddict[node.right] = node
+                queue.append(node.right)
+        l1 = p
+        l2 = q
+        # 两个链表相交
+        # a + nb    b + na
+        while l1 != l2:
+            l1 = ddict.get(l1, q)
+            l2 = ddict.get(l2, p)
+        return l1
+
+        # 两个链表相交
+        # l2_set = set()
+        # while l2:
+        #     l2_set.add(l2)
+        #     l2 = ddict.get(l2, None)
+        # while l1:
+        #     if l1 in l2_set:
+        #         return l1
+        #     l1 = ddict.get(l1, None)
