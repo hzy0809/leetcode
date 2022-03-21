@@ -92,7 +92,7 @@ learning algorithm
 
 ### 分治法/二分法
 
-- 23
+- [23](./leetcode/23_合并K个升序链表.py)
 - 33
 - 34
 
