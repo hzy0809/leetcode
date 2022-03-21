@@ -54,3 +54,18 @@
 
 链接：https://leetcode-cn.com/problems/delete-leaves-with-a-given-value
 """
+from typing import Optional
+
+from leetcode.datastructure import TreeNode
+
+
+class Solution:
+    def removeLeafNodes(self, root: Optional[TreeNode], target: int) -> Optional[TreeNode]:
+        if not root:
+            return root
+        root.left = self.removeLeafNodes(root.left, target=target)
+        root.right = self.removeLeafNodes(root.right, target=target)
+
+        if not root.left and not root.right and root.val == target:
+            return None
+        return root
