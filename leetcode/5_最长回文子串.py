@@ -34,44 +34,64 @@ class Solution:
         n = len(s)
         if n < 2 or s == s[::-1]:
             return s
-
-        max_len = 1
-        begin = 0
-        # dp[i][j] 表示 s[i..j] 是否是回文串
         dp = [[False] * n for _ in range(n)]
-        # for i in range(n):
-        #     dp[i][i] = True
-
-        # 递推开始
-        # 先枚举子串长度
-        current0 = True
+        for i in range(n):
+            dp[i][i] = True
+            if i > 0:
+                dp[i][i - 1] = True
+            if i < n - 1:
+                dp[i][i + 1] = True
+        length = 1
+        begin = 0
+        current = True
         current1 = True
         temp = False
-        for L in range(2, n + 1):
-            # 枚举左边界，左边界的上限设置可以宽松一些
-            if not current0 and not current1:
+        for l in range(2, n + 1):
+            if not current and not current1:
                 break
-            for i in range(0, n - L + 1):
-                # 由 L 和 i 可以确定右边界，即 j - i + 1 = L 得
-                j = L + i - 1
-                # 如果右边界越界，就可以退出当前循环
-                if j >= n:
-                    break
-
+            for i in range(n - l + 1):
+                j = i + l - 1
                 if s[i] != s[j]:
                     dp[i][j] = False
                 else:
-                    if j - i < 3:
-                        dp[i][j] = True
-                    else:
-                        dp[i][j] = dp[i + 1][j - 1]
+                    dp[i][j] = dp[i + 1][j - 1]
 
-                # 只要 dp[i][L] == true 成立，就表示子串 s[i..L] 是回文，此时记录回文长度和起始位置
                 if dp[i][j]:
-                    temp = True
-                    if j - i + 1 > max_len:
-                        max_len = j - i + 1
+                    if l > length:
                         begin = i
-            current0, current1 = current1, temp
-            temp = False
-        return s[begin:begin + max_len]
+                        length = l
+                    temp = True
+            current, current1, temp = current1, temp, False
+
+        return s[begin:begin + length]
+
+
+class BestSolution:
+    def longestPalindrome(self, s: str) -> str:
+        if len(s) < 2 or s == s[::-1]:
+            return s
+
+        # 保证下方都为不完全的回文字符串,循环终止条件
+        s = '#' + s + '/'
+
+        prv = 1
+        ans = 0
+        ansl = ansr = None
+        print(s)
+        for i in range(1, len(s)):
+            if s[i] != s[prv]:
+                # 以prv为中心扩展
+                l, r = prv - 1, i
+                while s[l] == s[r]:
+                    l -= 1
+                    r += 1
+                if r - l - 1 >= ans:
+                    ans = r - l - 1
+                    ansl = l + 1
+                    ansr = r
+                prv = i
+        return s[ansl:ansr]
+
+
+if __name__ == '__main__':
+    print(BestSolution().longestPalindrome('abc'))
