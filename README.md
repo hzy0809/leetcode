@@ -100,7 +100,7 @@ learning algorithm
 
 - [5_最长回文子串](./leetcode/5_最长回文子串.py)
 - [53_最大子数组和](./leetcode/53_最大子数组和.py)
-- 62
+- [62_不同路径](./leetcode/62_不同路径.py)
 - 64
 - 70
 - 118
