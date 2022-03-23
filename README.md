@@ -102,7 +102,7 @@ learning algorithm
 - [53_最大子数组和](./leetcode/53_最大子数组和.py)
 - [62_不同路径](./leetcode/62_不同路径.py)
 - [64_最小路径和](./leetcode/64_最小路径和.py)
-- 70
+- [70_爬楼梯](./leetcode/70_爬楼梯.py)
 - 118
 - 300
 - 1143
