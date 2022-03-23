@@ -103,7 +103,7 @@ learning algorithm
 - [62_不同路径](./leetcode/62_不同路径.py)
 - [64_最小路径和](./leetcode/64_最小路径和.py)
 - [70_爬楼梯](./leetcode/70_爬楼梯.py)
-- 118
+- [118_杨辉三角](./leetcode/118_杨辉三角.py)
 - 300
 - 1143
 - 1277
