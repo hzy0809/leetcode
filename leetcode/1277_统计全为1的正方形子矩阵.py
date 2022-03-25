@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 2022/3/24 17:54
-# @File    : 1277_统计全为1的正方形子矩阵.py
-# @Software: PyCharm
+# @author: Hzy
+# @file: 1277_统计全为1的正方形子矩阵.py
+# @time: 2022/3/24 22:04
+
 """
 给你一个m * n的矩阵，矩阵中的元素不是 0 就是 1，请你统计并返回其中完全由 1 组成的 正方形 子矩阵的个数。
 
@@ -52,19 +53,14 @@ class Solution:
     def countSquares(self, matrix: List[List[int]]) -> int:
         m = len(matrix)
         n = len(matrix[0])
+        res = sum(matrix[i][0] for i in range(m)) + sum(matrix[0][i] for i in range(n)) - matrix[0][0]
         for i in range(1, m):
             for j in range(1, n):
-                matrix[i][j] = min(matrix[i - 1][j], matrix[i][j - 1], matrix[i - 1][j - 1])
-                if not matrix[i][j]:
-                    matrix[i][j] -= 1
-
-        print(matrix)
-        return matrix[m - 1][n - 1]
+                if matrix[i][j]:
+                    matrix[i][j] = min(matrix[i - 1][j - 1], matrix[i][j - 1], matrix[i - 1][j]) + 1
+                    res += matrix[i][j]
+        return res
 
 
 if __name__ == '__main__':
-    print(Solution().countSquares([
-        [0, 1, 1, 1],
-        [1, 1, 1, 1],
-        [0, 1, 1, 1]
-    ]))
+    print(Solution().countSquares([[0, 1, 1, 1], [1, 1, 0, 1], [1, 1, 1, 1], [1, 0, 1, 0]]))
