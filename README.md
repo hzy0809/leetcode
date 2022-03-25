@@ -111,7 +111,7 @@ learning algorithm
 ### 回溯法
 
 - [10_正则表达式匹配](./leetcode/10_正则表达式匹配.py)
-- 22
+- [22_括号生成](./leetcode/22_括号生成.py)
 - 40
 - 46
 
