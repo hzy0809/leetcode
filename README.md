@@ -112,8 +112,8 @@ learning algorithm
 
 - [10_正则表达式匹配](./leetcode/10_正则表达式匹配.py)
 - [22_括号生成](./leetcode/22_括号生成.py)
-- 40
-- 46
+- [40_组合总和II](./leetcode/40_组合总和II.py)
+- [46_全排列](./leetcode/46_全排列.py)
 
 ### 字典树（前缀树）
 
