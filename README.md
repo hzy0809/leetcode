@@ -32,6 +32,7 @@ learning algorithm
 + [42_接雨水](./leetcode/42_接雨水.py)
 + [121_买卖股票的最佳时机](./leetcode/121_买卖股票的最佳时机.py)
 + [209_长度最小的子数组](./leetcode/209_长度最小的子数组.py)
++ [187_重复的DNA序列](./leetcode/187_重复的DNA序列.py)
 
 ### 快慢指针遍历
 
