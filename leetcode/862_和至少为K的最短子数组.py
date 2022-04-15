@@ -33,6 +33,7 @@
 
 链接：https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k
 """
+import collections
 from typing import List
 
 
@@ -53,6 +54,27 @@ class OutTimeSolution:
                     return i + 1
                 dp[i][j] = total
         return -1
+
+
+class Solution:
+    def shortestSubarray(self, nums: List[int], k: int) -> int:
+        n = len(nums)
+        ans = n + 1
+        dp = [0]
+        for x in nums:
+            dp.append(dp[-1] + x)
+
+        cd = collections.deque()
+        for y, py in enumerate(dp):
+            while cd and py <= dp[cd[-1]]:
+                cd.pop()
+
+            while cd and py - dp[cd[0]] >= k:
+                ans = min(ans, y - cd.popleft())
+
+            cd.append(y)
+
+        return ans if ans < n + 1 else -1
 
 
 if __name__ == '__main__':
