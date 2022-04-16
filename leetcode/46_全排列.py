@@ -71,4 +71,4 @@ class FSolution(Solution):
 
 
 if __name__ == '__main__':
-    print(FSolution().permute([1, 2, 3]))
+    print(FSolution().permute(['a', 'b', 'c']))
