@@ -57,3 +57,5 @@ if __name__ == '__main__':
     # print(b.val)
     head = convert_list2tree([1, None, 2, 3])
     print(head)
+    import heapq
+    heapq.heappushpop()
