@@ -34,6 +34,7 @@ learning algorithm
 + [209_长度最小的子数组](./leetcode/209_长度最小的子数组.py)
 + [187_重复的DNA序列](./leetcode/187_重复的DNA序列.py)
 + [862_和至少为K的最短子数组](./leetcode/862_和至少为K的最短子数组.py)
++ [713_乘积小于K的子数组](./leetcode/713_乘积小于K的子数组.py)
 
 ### 快慢指针遍历
 
